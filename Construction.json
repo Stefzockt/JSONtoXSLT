@@ -1,0 +1,93 @@
+{
+    "project_details": {
+        "name": "Simple Anwendung",
+        "project_namespace":"MPX01",
+        "description": "Doku",
+        "start_dialog":"MPX01P00010",
+        "created_by": "ID",
+        "creation_date": "DATE",
+        "last_modified": "DATE"
+    },
+    "dialogs": [
+        {
+            "name": "name",
+            "dialog_id":"MPX01P00010",
+            "type": "Dialog",
+            "fields": {
+                "1_textbox": {
+                    "position": 1,
+                    "text_de": "Standardwert",
+                    "text_en": "Default value",
+                    "label_de": "Beschriftung",
+                    "label_en": "Label",
+                    "tooltip_de": "Tooltip von Textbox1",
+                    "tooltip_en": "Tooltip from Textbox1",
+                    "edit": true,
+                    "lines": 2,
+                    "orientation": "vertical"
+                },
+                "checkbox": {
+                    "position": 2,
+                    "label_de": "Beschrifftung",
+                    "label_en": "Label",
+                    "lines": 2,
+                    "edit": false,
+                    "default": true,
+                    "orientation": "horizontal"
+                },
+                "2_textbox": {
+                    "position": 3,
+                    "text_de": "Standardwert",
+                    "text_en": "Default value",
+                    "label_de": "Beschriftung",
+                    "label_en": "Label",
+                    "tooltip_de": "Tooltip von Textbox1",
+                    "tooltip_en": "Tooltip from Textbox1",
+                    "edit": true,
+                    "lines": 2,
+                    "orientation": "vertical"
+                }
+            }
+        },
+        {
+            "name": "name",
+            "dialog_id":"MPX01P00020",
+            "type": "Dialog",
+            "fields": {
+                "1_textbox": {
+                    "position": 1,
+                    "text_de": "Standardwert",
+                    "text_en": "Default value",
+                    "label_de": "Beschriftung",
+                    "label_en": "Label",
+                    "tooltip_de": "Tooltip von Textbox1",
+                    "tooltip_en": "Tooltip from Textbox1",
+                    "edit": true,
+                    "lines": 2,
+                    "orientation": "vertical"
+                },
+                "checkbox": {
+                    "position": 2,
+                    "label_de": "Beschrifftung",
+                    "label_en": "Label",
+                    "lines": 2,
+                    "edit": false,
+                    "default": true,
+                    "orientation": "horizontal"
+                },
+                "2_textbox": {
+                    "position": 3,
+                    "text_de": "Standardwert",
+                    "text_en": "Default value",
+                    "label_de": "Beschriftung",
+                    "label_en": "Label",
+                    "tooltip_de": "Tooltip von Textbox1",
+                    "tooltip_en": "Tooltip from Textbox1",
+                    "edit": true,
+                    "lines": 2,
+                    "orientation": "vertical"
+                }
+            }
+        }
+    ]
+}
